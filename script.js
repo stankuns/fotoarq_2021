@@ -160,7 +160,8 @@ function reChangeImageConstruction() {
 // change the banner image randomly | troca a imagem do banner randomicamente
 window.onload = choosePic;
 
-var myPix = new Array('./images/banner1.jpg', './images/banner2.jpg', './images/banner3.jpg', './images/banner4.jpg', './images/banner5.jpg');
+var myPix = new Array('./images/banner1.jpg', './images/banner2.jpg', './images/banner3.jpg', './images/banner4.jpg', './images/banner5.jpg', './images/banner6.jpg',
+ './images/banner7.jpg', './images/banner8.jpg', './images/banner10.jpg', './images/banner11.jpg', './images/banner12.jpg');
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
